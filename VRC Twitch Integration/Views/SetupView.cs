@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace VRC_Twitch_Integration
+namespace VRC_Twitch_Integration.Views
 {
-    public partial class Form1 : Form
+    public partial class SetupView : Form
     {
-        public Form1()
+        public SetupView()
         {
             InitializeComponent();
         }

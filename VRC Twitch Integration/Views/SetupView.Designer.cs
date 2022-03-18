@@ -1,6 +1,6 @@
-﻿namespace VRC_Twitch_Integration
+﻿namespace VRC_Twitch_Integration.Views
 {
-    partial class Form1
+    partial class SetupView
     {
         /// <summary>
         /// Required designer variable.
@@ -30,10 +30,10 @@
         {
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "SetupView";
         }
 
         #endregion
     }
 }
-

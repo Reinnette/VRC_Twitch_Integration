@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using VRC_Twitch_Integration.Views;
 
 namespace VRC_Twitch_Integration
 {
@@ -16,7 +14,7 @@ namespace VRC_Twitch_Integration
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new MainView());
         }
     }
 }
