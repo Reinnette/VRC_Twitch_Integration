@@ -17,6 +17,9 @@ namespace VRC_Twitch_Integration.Views
             Instance.DisplayForm = NavigationForms.Home;
         }
 
+        /// <summary>
+        /// Public property used to create a singleton class
+        /// </summary>
         private static ServerIntegration instance = null;
         public static ServerIntegration Instance
         {
@@ -33,6 +36,9 @@ namespace VRC_Twitch_Integration.Views
             }
         }
 
+        /// <summary>
+        /// Public property used to change the active screen
+        /// </summary>
         private NavigationForms displayForm;
         public NavigationForms DisplayForm
         { 
@@ -77,31 +83,14 @@ namespace VRC_Twitch_Integration.Views
             }
         }
 
+        /// <summary>
+        /// Initalize all of the screens but hide them untill the user needs to see it
+        /// </summary>
         private void RegisterNavigations()
         {
             foreach (var navigation in Enum.GetValues(typeof(NavigationForms)))
             {
-                var form = new Form();
-
-                switch (navigation)
-                { 
-                    case NavigationForms.Home:
-                        form = Activator.CreateInstance(Type.GetType("VRC_Twitch_Integration.Views." + navigation)) as Home;
-                        break;
-                    case NavigationForms.RegisterView:
-                        form = Activator.CreateInstance(Type.GetType("VRC_Twitch_Integration.Views." + navigation)) as RegisterView;
-                        break;
-                    case NavigationForms.SetupView:
-                        form = Activator.CreateInstance(Type.GetType("VRC_Twitch_Integration.Views." + navigation)) as SetupView;
-                        break;
-                    case NavigationForms.SettingsView:
-                        form = Activator.CreateInstance(Type.GetType("VRC_Twitch_Integration.Views." + navigation)) as SettingsView;
-                        break;
-                    case NavigationForms.HelpView:
-                        form = Activator.CreateInstance(Type.GetType("VRC_Twitch_Integration.Views." + navigation)) as HelpView;
-                        break;
-                }
-
+                var form = Activator.CreateInstance(Type.GetType("VRC_Twitch_Integration.Views." + navigation)) as Form;
                 form.TopLevel = false;
                 pnlNavigation.Controls.Add(form);
                 form.FormBorderStyle = FormBorderStyle.None;
