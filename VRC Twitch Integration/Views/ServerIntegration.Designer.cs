@@ -52,6 +52,6 @@
 
         #endregion
 
-        internal System.Windows.Forms.Panel pnlNavigation;
+        public System.Windows.Forms.Panel pnlNavigation;
     }
 }

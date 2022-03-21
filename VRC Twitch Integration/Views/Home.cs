@@ -20,17 +20,17 @@ namespace VRC_Twitch_Integration.Views
 
         private void btnSettings_Click(object sender, EventArgs e)
         {
-            ServerIntegration.Instance().Navigate(NavigationForms.SettingsView);
+            ServerIntegration.Instance.DisplayForm = NavigationForms.SettingsView;
         }
 
         private void btnSetup_Click(object sender, EventArgs e)
         {
-            ServerIntegration.Instance().Navigate(NavigationForms.SetupView);
+            ServerIntegration.Instance.DisplayForm = NavigationForms.SetupView;
         }
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
-            ServerIntegration.Instance().Navigate(NavigationForms.RegisterView);
+            ServerIntegration.Instance.DisplayForm = NavigationForms.RegisterView;
         }
     }
 }
