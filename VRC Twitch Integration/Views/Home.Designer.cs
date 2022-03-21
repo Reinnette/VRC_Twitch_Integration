@@ -38,7 +38,7 @@
             this.btnRegister.BackColor = System.Drawing.Color.Black;
             this.btnRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegister.ForeColor = System.Drawing.Color.White;
-            this.btnRegister.Location = new System.Drawing.Point(41, 125);
+            this.btnRegister.Location = new System.Drawing.Point(108, 128);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(200, 200);
             this.btnRegister.TabIndex = 5;
@@ -51,7 +51,7 @@
             this.btnSetup.BackColor = System.Drawing.Color.Black;
             this.btnSetup.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSetup.ForeColor = System.Drawing.Color.White;
-            this.btnSetup.Location = new System.Drawing.Point(295, 125);
+            this.btnSetup.Location = new System.Drawing.Point(362, 128);
             this.btnSetup.Name = "btnSetup";
             this.btnSetup.Size = new System.Drawing.Size(200, 200);
             this.btnSetup.TabIndex = 4;
@@ -64,7 +64,7 @@
             this.btnSettings.BackColor = System.Drawing.Color.Black;
             this.btnSettings.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSettings.ForeColor = System.Drawing.Color.White;
-            this.btnSettings.Location = new System.Drawing.Point(559, 125);
+            this.btnSettings.Location = new System.Drawing.Point(626, 128);
             this.btnSettings.Name = "btnSettings";
             this.btnSettings.Size = new System.Drawing.Size(200, 200);
             this.btnSettings.TabIndex = 3;
@@ -77,7 +77,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(984, 461);
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.btnSetup);
             this.Controls.Add(this.btnSettings);

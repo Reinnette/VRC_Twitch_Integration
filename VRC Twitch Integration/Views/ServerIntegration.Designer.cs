@@ -33,17 +33,17 @@
             // 
             // pnlNavigation
             // 
-            this.pnlNavigation.Location = new System.Drawing.Point(2, 2);
+            this.pnlNavigation.Location = new System.Drawing.Point(0, 0);
             this.pnlNavigation.Name = "pnlNavigation";
-            this.pnlNavigation.Size = new System.Drawing.Size(796, 446);
+            this.pnlNavigation.Size = new System.Drawing.Size(1000, 500);
             this.pnlNavigation.TabIndex = 0;
             // 
             // ServerIntegration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Gray;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.ClientSize = new System.Drawing.Size(984, 461);
             this.Controls.Add(this.pnlNavigation);
             this.Name = "ServerIntegration";
             this.ResumeLayout(false);
