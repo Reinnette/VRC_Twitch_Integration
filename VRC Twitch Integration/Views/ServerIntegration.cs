@@ -48,24 +48,29 @@ namespace VRC_Twitch_Integration.Views
                     switch (value)
                     {
                         case NavigationForms.Home:
-                            if (pnlNavigation.Controls[count] as Home != null)
-                                (pnlNavigation.Controls[count] as Home).Visible = true;
+                            var homeForm = pnlNavigation.Controls[count] as Home;
+                            if (homeForm != null)
+                                (homeForm).Visible = true;
                             break;
                         case NavigationForms.RegisterView:
-                            if (pnlNavigation.Controls[count] as RegisterView != null)
-                                (pnlNavigation.Controls[count] as RegisterView).Visible = true;
+                            var registerForm = pnlNavigation.Controls[count] as RegisterView;
+                            if (registerForm != null)
+                                (registerForm).Visible = true;
                             break;
                         case NavigationForms.SetupView:
-                            if (pnlNavigation.Controls[count] as SetupView != null)
-                                (pnlNavigation.Controls[count] as SetupView).Visible = true;
+                            var setupForm = pnlNavigation.Controls[count] as SetupView;
+                            if (setupForm != null)
+                                (setupForm).Visible = true;
                             break;
                         case NavigationForms.SettingsView:
-                            if (pnlNavigation.Controls[count] as SettingsView != null)
-                                (pnlNavigation.Controls[count] as SettingsView).Visible = true;
+                            var settingsForm = pnlNavigation.Controls[count] as SettingsView;
+                            if (settingsForm != null)
+                                (settingsForm).Visible = true;
                             break;
                         case NavigationForms.HelpView:
-                            if (pnlNavigation.Controls[count] as HelpView != null)
-                                (pnlNavigation.Controls[count] as HelpView).Visible = true;
+                            var helpForm = pnlNavigation.Controls[count] as HelpView;
+                            if (helpForm != null)
+                                (helpForm).Visible = true;
                             break;
                     }
                 }
