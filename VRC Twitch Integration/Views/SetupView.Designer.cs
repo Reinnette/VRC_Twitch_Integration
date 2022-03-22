@@ -101,6 +101,7 @@
             this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView1.Size = new System.Drawing.Size(843, 356);
             this.dataGridView1.TabIndex = 4;
+            this.dataGridView1.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.cellChanged);
             // 
             // InServer
             // 
