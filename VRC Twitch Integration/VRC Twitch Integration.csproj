@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="Data Management\DataIO.cs" />
     <Compile Include="Data\Navigation.cs" />
+    <Compile Include="Data\ParameterData.cs" />
     <Compile Include="Data\ServerData.cs" />
     <Compile Include="Data\SettingsData.cs" />
     <Compile Include="Data\SetupData.cs" />
