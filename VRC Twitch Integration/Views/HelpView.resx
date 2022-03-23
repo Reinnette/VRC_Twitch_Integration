@@ -117,4 +117,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Adding a server is done from the Register Server section. Within the provided the table  
+if you enter a Server Name, Server URL, and Server Port then the system will add it to 
+the list of usable servers</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Once a server is added it can be selected as an Input or an Output server within the 
+setup section. Adding the server here will tell this application to either send data or 
+listen for data from the selected server
+</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Once a Parameter  is added it can be selected as an Input or an Output 
+Parameter within the setup section. Adding the Parameter here will tell 
+this application look for or send this specific Parameter
+</value>
+  </data>
 </root>

@@ -15,5 +15,17 @@ namespace VRC_Twitch_Integration.Views
         {
             Navigation.Navigate(NavigationForms.Home);
         }
+
+        private void btnServerPanel_Click(object sender, EventArgs e)
+        {
+            pnlServers.Visible = true;
+            pnlParameters.Visible = false;
+        }
+
+        private void btnParametersPanel_Click(object sender, EventArgs e)
+        {
+            pnlServers.Visible = false;
+            pnlParameters.Visible = true;
+        }
     }
 }
