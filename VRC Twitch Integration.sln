@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRC Twitch Integration", "VRC Twitch Integration\VRC Twitch Integration.csproj", "{1EABF57A-9C07-4BCF-B2E7-A6691B7EAC8E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRC_Twitch_Integration", "VRC_Twitch_Integration\VRC_Twitch_Integration.csproj", "{6A3036C1-F15E-434F-90FB-9FF71C91401B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1EABF57A-9C07-4BCF-B2E7-A6691B7EAC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1EABF57A-9C07-4BCF-B2E7-A6691B7EAC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1EABF57A-9C07-4BCF-B2E7-A6691B7EAC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1EABF57A-9C07-4BCF-B2E7-A6691B7EAC8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A3036C1-F15E-434F-90FB-9FF71C91401B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3036C1-F15E-434F-90FB-9FF71C91401B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3036C1-F15E-434F-90FB-9FF71C91401B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3036C1-F15E-434F-90FB-9FF71C91401B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFA745E5-D4D8-4D6C-84DC-7F28626F9AD3}
 	EndGlobalSection
 EndGlobal
